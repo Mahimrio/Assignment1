@@ -1,0 +1,113 @@
+.profile-page {
+  max-width: 400px;
+  margin: 50px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.profile-page h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1e1e1e;
+}
+
+.profile-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: translateY(-5px);
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 3px solid #4a90e2;
+}
+
+.profile-card h3 {
+  margin: 10px 0 5px;
+  font-size: 1.5rem;
+}
+
+.profile-card .email,
+.profile-card .joined {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 2px 0;
+}
+
+.profile-card .bio {
+  font-size: 0.95rem;
+  margin: 10px 0;
+  color: #444;
+  line-height: 1.4;
+}
+
+.profile-card input,
+.profile-card textarea {
+  width: 100%;
+  padding: 10px 12px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+  resize: none;
+}
+
+.profile-card textarea {
+  height: 80px;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background 0.3s ease;
+}
+
+.edit-btn {
+  background-color: #4a90e2;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #357ac8;
+}
+
+.save-btn {
+  background-color: #28a745;
+  color: white;
+  flex: 1;
+  margin-right: 10px;
+}
+
+.save-btn:hover {
+  background-color: #218838;
+}
+
+.cancel-btn {
+  background-color: #dc3545;
+  color: white;
+  flex: 1;
+}
+
+.cancel-btn:hover {
+  background-color: #c82333;
+}
